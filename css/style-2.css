@@ -1,0 +1,63 @@
+/* &display=swap */
+
+@import "null.css";
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap);
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+body {
+	font-family: "Lato" sans-serif;
+	color: #424551;
+}
+.title {
+	font-size: 46px;
+	line-height: 130%;
+	font-weight: 900;
+	color: #1e212c;
+}
+.text-top {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 150%;
+	color: #1e212c;
+}
+.text {
+	line-height: 160%;
+}
+.quote {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1e212c;
+}
+h3.title {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 160%;
+	color: #424551;
+}
+.list li {
+	line-height: 160%;
+}
+.text-bottom {
+	line-height: 160%;
+}
